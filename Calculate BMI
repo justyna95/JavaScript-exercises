@@ -1,0 +1,13 @@
+// Write function BMI that calculates body mass index (BMI = weight/height^2)
+// If BMI <= 18.5 return "Underweight"
+// If BMI <= 20.0 return "Normal"
+// If BMI <= 30.0 return "Overweight"
+// If BMI > 30 return "Obese"
+
+function bmi(weight, height) {
+  var BMI = weight/ (height * height);
+  if (BMI <= 18.5) return "Underweight";
+  if (BMI <= 20.0) return "Normal";
+  if (BMI <= 30.0) return "Overweight";
+  if (BMI > 30.0) return "Obese";
+}
