@@ -1,0 +1,10 @@
+// Write function avg which calculates average of numbers in given list.
+
+
+function find_average(array) {
+  var arraySum = 0;
+  for (let i=0; i<array.length; i++) {
+    arraySum += array[i]
+  }
+  return arraySum/array.length;
+}
