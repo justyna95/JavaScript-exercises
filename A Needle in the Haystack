@@ -14,8 +14,7 @@
 
 
 
-function findNeedle(haystack) {
-  var position;
-  position = haystack.indexOf('needle');
-  return 'found the needle at position ' + position;
+let findNeedle = heystack => {
+  let haystack;
+  return 'found the needle at position ' + heystack.indexOf('needle');
 }
